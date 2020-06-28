@@ -21,3 +21,17 @@ Activate the new python virtual environment:
 ```
 .venv/scripts/activate
 ```
+
+## Running the API
+
+While your virtual environment is activated, run the following command:
+
+```
+python main.py
+```
+
+This will run the API programatically, and allow you to interact with it.
+
+You can view the available endpoints and test the API via the /docs (Swagger UI) endpoint:
+
+> `http://localhost:5000/docs`
