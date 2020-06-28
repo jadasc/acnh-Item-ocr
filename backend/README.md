@@ -48,7 +48,8 @@ In order to run OCR you need to download and install the OCR binary for your mac
 
 > https://github.com/UB-Mannheim/tesseract/wiki
 
-In order for the tesseract exe to be found in your python files, we need to either add the exe location to your environment variables, or change the following line of code to point to where the exe is located:
+
+In order for the Tesseract exe to be found in your python files, we need to either add the exe location to your environment variables, or change the following line of code in `\backend\text_extractor.py` to point to where the exe is located:
 
 ```
 pytesseract.pytesseract.tesseract_cmd = [path/to/Tesseract-OCR/tesseract.exe]
