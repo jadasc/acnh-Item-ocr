@@ -23,12 +23,12 @@ E.g.
 Activate the new python virtual environment:
 
 ```
-.[virtual_environment_folder_name]/scripts/activate
+.[virtual_environment_folder_name]/Scripts/activate
 ```
 
 E.g.
 
-> `.venv/scripts/activate`
+> `.venv/Scripts/activate`
 
 Now that the virtual environment is setup and activated, we need to install all the requirements from the `requirements.txt` file:
 
