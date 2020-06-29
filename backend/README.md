@@ -35,3 +35,18 @@ This will run the API programatically, and allow you to interact with it.
 You can view the available endpoints and test the API via the /docs (Swagger UI) endpoint:
 
 > `http://localhost:5000/docs`
+
+### Sending a picture
+
+To send a picture to the API via alternative methods other than the Swagger UI, we need to setup a few things.
+
+The header for the request should contain the following:
+
+```
+{
+    "accept": "application/json",
+    "Content-Type":"multipart/form-data"
+}
+```
+
+For the request content, we need to use the multipart datatype, with a single `file` (jpeg) attached.
