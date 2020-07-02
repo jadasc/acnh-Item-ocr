@@ -50,9 +50,33 @@ In order for the Tesseract exe to be found in your python files, we need to eith
 pytesseract.pytesseract.tesseract_cmd = [path/to/Tesseract-OCR/tesseract.exe]
 ```
 
+## Running the API
+
+While your virtual environment is activated, run the following command:
+
+```
+python main.py
+```
+
+This will run the API programatically, and allow you to interact with it.
+
+You can view the available endpoints and test the API via the /docs (Swagger UI) endpoint:
+
+> `http://localhost:[PORT]/docs`
+
+### Swagger
+
+We can view the Swagger UI for the server when running at:
+
+> `localhost:[PORT]/docs`
+
 E.g.
 
-> pytesseract.pytesseract.tesseract_cmd = r"C:\Users\YOUR_NAME\AppData\Local\Tesseract-OCR\tesseract.exe"
+> `localhost:5000/docs`
+
+Open the above url in your browser to view and run the various endpoints available in the API.
+
+### Sending a picture
 
 ## Testing
 
